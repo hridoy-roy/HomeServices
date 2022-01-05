@@ -107,10 +107,12 @@
                                 </div>
                                 <div class="form-group row">
                                     <label for="phone" class="col-md-4 col-form-label text-md-right">Register As</label>
-                                    <select class="form-control" name="registeras" id="registeras">
-                                    <option value="SVP">Service Provider</option>
-                                    <option Value="CST" >Customer</option>
-                                    </select>
+                                    <div class="col-md-6">
+                                        <select class="form-control " name="registeras" id="registeras">
+                                            <option value="SVP">Service Provider</option>
+                                            <option Value="CST" >Customer</option>
+                                        </select>
+                                    </div>
                                 </div>
                                 <div class="form-group row">
                                     <label for="password"
